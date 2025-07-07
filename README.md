@@ -1,8 +1,8 @@
 ## Hi there 👋
 
-<!--
-**hsonhi/hsonhi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
+**Welcome,** this is a ✨ new ✨ account for public project samples and demos.
+<!--
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
