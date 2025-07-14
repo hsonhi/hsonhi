@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 
-**Welcome,** this is a ✨ new ✨ account for public project samples and demos.
+**Welcome,** this is a ✨ new ✨ account for public projects and samples.
 <!--
 Here are some ideas to get you started:
 
