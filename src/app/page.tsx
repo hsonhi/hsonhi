@@ -117,14 +117,13 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  My Projects
+                  Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex desktop applications. Here are a few examples.
+                  I've worked on a variety of projects, from simple websites to complex desktop applications. Here are a few of them.
                 </p>
               </div>
             </div>
@@ -163,13 +162,37 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Over the course of the years i have built projects across different domains working with teams across Brasil, India and Portugal, 
-                  here are a few of them.
+                  Over the past few years i have tackled challenges across Microservices architecture, data-driven and AI-accelerated development,
+                  here are a few examples.
                 </p>
               </div>
             </div>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
+
+
+
+<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.interests.map((interest, id) => (
+              <BlurFade
+                key={interest.title}
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+              >
+                <ProjectCard
+                  href={interest.href}
+                  key={interest.title}
+                  title={interest.title}
+                  description={interest.description}
+                  dates={interest.dates}
+                  tags={interest.technologies}
+                  image={interest.image}
+                  video={interest.video}
+                  links={interest.links}
+                />
+              </BlurFade>
+            ))}
+          </div>
+            {/*
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
               {DATA.domains.map((project, id) => (
                 <BlurFade
@@ -187,6 +210,7 @@ export default function Page() {
                 </BlurFade>
               ))}
             </ul>
+           */}
           </BlurFade>
         </div>
       </section>

@@ -133,7 +133,7 @@ export const DATA = {
   projects: [
       {
       title: "Portal do Contribuinte",
-      href: "",
+      href: "https://portaldocontribuinte.minfin.gov.ao/",
       dates: "",
       active: true,
       description:
@@ -143,11 +143,12 @@ export const DATA = {
         "JPA",
         "JSF",
         "Primefaces",
-        "Springboot",
-        "Oracle DB",
-        "Microservices",
+        "Spring Boot",
         "SOAP",
         "Hibernate",
+        "Oracle DB",
+        "Microservices",
+        "Gitlab CI",
       ],
       links: [
         {
@@ -159,32 +160,89 @@ export const DATA = {
       image: "",
       video: "/portalcontribuinte.mp4",
     },
-  {
-      title: "Arduino RFID Module for MFRC522",
-      href: "",
+    
+     {
+      title: "Accessibility (WCAG 2.1 AA)",
+      href: "https://github.com/hsonhi/building-an-accessible-web-application",
       dates: "",
       active: true,
       description:
-        "Arduino sketch with RFID Library for MFRC522. The goal of this project was to create a data reader for vehicle immobilizer systems using RFID encryption.",
+        "This application is a static, highly accessible e-commerce platform that maintains strict WCAG 2.1 Level AA compliance.",
       technologies: [
-        "C++",
-        "Arduino IDE",
-        "Arduino Nano",
-        "RFID Module MFRC522",
+        "GitHub Actions",
+        "CI/CD",
+        "LocalStorage",
+        "WAVE Tooling",
+        "ESLint",
+        "Prettier",
+        "HTMLHint",
+        "Bootstrap 5",
       ],
-      links: [
-        {
+      links: [ {
           type: "Source",
-          href: "https://github.com/hsonhi/rfidMFRC522",
+          href: "https://github.com/hsonhi/building-an-accessible-web-application",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/arduino.jpeg",
-      video: "",
+      image: "/accessible-web-application.png",
+      video:
+        "",
+    },
+  {
+      title: "Website institucional ",
+      href: "https://www.unipiaget-angola.org/",
+      dates: "",
+      active: true,
+      description:
+        "The Jean Piaget University of Angola was founded in 1999 with the creation of the Piaget Institute Association of Angola – AIPA, as recorded in the Official Gazette, No. 14, Series III of April 1, 1999.",
+      technologies: [
+        "Javascript",
+        "PHP",
+        "Bootstrap",
+        "MySQL",
+        "Custom CMS",
+      ],
+      links: [ {
+          type: "Website",
+          href: "https://www.unipiaget-angola.org/",
+            icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/unipiaget.png",
+      video:
+        "",
     },
      {
-      title: "Giant SA",
-      href: "",
+      title: "PIAGEST ",
+      href: "http://41.63.177.143:12020/",
+      dates: "",
+      active: true,
+      description:
+        "Piagest is a response to the need for a 100% Angolan platform for integrated academic and university management.",
+      technologies: [
+        "Azure SQL",
+        "SQL Server",
+        "ASP.NET",
+        "MVC",
+        "IIS",
+        "Oracle",
+        "Javascript",
+        "RabbitMQ",
+        "Docker"
+      ],
+      links: [ {
+          type: "Application",
+          href: "http://41.63.177.143:12020/",
+           icon: <Icons.globelock className="size-3" />,
+        },
+      ],
+      image: "/piagest.png",
+      video:
+        "",
+    },
+     {
+      title: "Giant Seguros SA",
+      href: "https://giantsa.vercel.app/",
       dates: "",
       active: true,
       description:
@@ -195,7 +253,7 @@ export const DATA = {
         "Typescript",
         "Node.js",
         "TailwindCSS",
-        "SQL",
+        "MySQL",
       ],
       links: [
          {
@@ -212,8 +270,8 @@ export const DATA = {
       video: "",
     },
     {
-      title: "RecibosMCX",
-      href: "",
+      title: "Recibos MultiCaixa Express",
+      href: "https://recibosmcx.vercel.app/",
       dates: "",
       active: true,
       description:
@@ -222,6 +280,7 @@ export const DATA = {
         "React.js",
         "Vite",
         "TypeScript",
+        "Node.js",
         "TailwindCSS",
         ".NET Core",
         "EF Core",
@@ -233,6 +292,11 @@ export const DATA = {
           type: "Application",
           href: "https://recibosmcx.vercel.app/",
           icon: <Icons.globelock className="size-3" />,
+        }, 
+         {
+          type: "API",
+          href: "https://recibosmcx.bsite.net/swagger/index.html",
+           icon: <Icons.dock className="size-3" />,
         }, 
         {
           type: "Source",
@@ -246,7 +310,7 @@ export const DATA = {
     },
      {
       title: "Gestreino",
-      href: "",
+      href: "https://gestreino.pt/",
       dates: "",
       active: true,
       description:
@@ -254,9 +318,10 @@ export const DATA = {
       technologies: [
         "ASP.NET",
         "MVC",
-        "Plesk",
+        "Razor",
         "SQL Server",
-        "Javascript",
+        "EF",
+        "Plesk",
       ],
       links: [
         {
@@ -270,14 +335,14 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/gestreino.png",
+      image: "/gestreino.jpg",
       video:
         "",
     },
     
     {
       title: "Factplus SaaS",
-      href: "",
+      href: "https://factplus.co.ao/",
       dates: "",
       active: true,
       description:
@@ -308,6 +373,134 @@ export const DATA = {
       image: "",
       video:
         "/factplus.mp4",
+    },
+  
+     {
+      title: "Jobin10",
+      href: "https://jobin10.com/",
+      dates: "",
+      active: true,
+      description:
+        "Jobin10 is a 100% Angolan platform that is fast, simple, and effective, aiming to bring job opportunities in the most relevant sectors of the Angolan economy and beyond.",
+      technologies: [
+        "Facebook/Linkedin SDKs",
+        "OAuth2",
+        "Javascript",
+        "PHP",
+        "Bootstrap",
+        "MySQL",
+      ],
+      links: [ {
+          type: "Website",
+          href: "https://jobin10.com/",
+            icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/jobin10.png",
+      video:
+        "",
+    },
+      {
+      title: "Arduino RFID Module for MFRC522",
+      href: "https://github.com/hsonhi/rfidMFRC522",
+      dates: "",
+      active: true,
+      description:
+        "Arduino sketch with RFID Library for MFRC522. The goal of this project was to create a data reader for vehicle immobilizer systems using RFID encryption.",
+      technologies: [
+        "C++",
+        "Arduino IDE",
+        "Arduino Nano",
+        "RFID Module MFRC522",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/hsonhi/rfidMFRC522",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/arduino.jpeg",
+      video: "",
+    },
+  ],
+  interests: [
+      {
+      title: "Data API builder",
+      href: "https://github.com/hsonhi/data-api-builder",
+      dates: "",
+      active: true,
+      description:
+        "Data API builder (DAB) provides a REST and GraphQL API over a database.",
+      technologies: [
+      ],
+      links: [
+        {
+         type: "Source",
+          href: "https://github.com/hsonhi/data-api-builder",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/DAB.png",
+      video: "",
+    },
+ {
+      title: "Semantic Kernel",
+      href: "https://github.com/hsonhi/semantic-kernel",
+      dates: "",
+      active: true,
+      description:
+        "Integrate cutting-edge LLM technology quickly and easily into your apps.",
+      technologies: [
+      ],
+      links: [
+        {
+         type: "Source",
+          href: "https://github.com/hsonhi/semantic-kernel",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/semantic-kernel.png",
+      video: "",
+    },
+     {
+      title: "Web Services Description Language",
+      href: "https://github.com/hsonhi/wdsl-soap-service",
+      dates: "",
+      active: true,
+      description:
+       "Building a WSDL-based SOAP Web Service with Spring Boot.",
+      technologies: [
+      ],
+      links: [
+       {
+          type: "Source",
+          href: "https://github.com/hsonhi/wdsl-soap-service",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/SOA.png",
+      video: "",
+    },
+    {
+      title: "GraphQL service with Java and Spring",
+      href: "https://github.com/hsonhi/graphql",
+      dates: "",
+      active: true,
+      description:
+        " GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.",
+      technologies: [
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/hsonhi/graphql",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/graphiQL.png",
+      video:
+        "",
     },
   ],
   domains: [
